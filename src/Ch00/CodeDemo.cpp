@@ -1,6 +1,7 @@
 // Learning C++ 
 // Exercise 00_03, This file is now specific to me
-// Using the exercise files on GitHub, by Eduardo Corpeño 
+// Using the exercise files on GitHub, by Eduardo Corpeño
+// This is a second comit 
 
 #include <iostream>
 
@@ -14,7 +15,7 @@ int main(){
     
     result = num_1 + num_2;
     
-    std::cout << "The result of the addition is " << result << std::endl;
+    std::cout << "The result of the total addition is " << result << std::endl;
     
     std::cout << std::endl << std::endl;
     return (0);
