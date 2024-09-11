@@ -6,6 +6,9 @@
 #include <cstring>
 
 
+enum class cow_purpose {dairy, meat, hide, pet};
+enum class grocery {canned, frozen, meat, laundry, dairy, bakery};
+
 int main(){
     std::string str1;
     std::string str2;
