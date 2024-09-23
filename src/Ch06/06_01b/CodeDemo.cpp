@@ -20,6 +20,8 @@ int main(){
             getline(inFile, str);
             std::cout << str << std::endl;
         }
+        //std::string str = "This line";
+        //inFile.app(str);
         inFile.close();
     }
     

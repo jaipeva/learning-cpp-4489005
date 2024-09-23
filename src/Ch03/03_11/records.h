@@ -30,11 +30,11 @@ class Grade{
 private:
     int student_id;
     int course_id;
-    char grade;
+    //char grade;
 
 public:
     Grade(int sid, int cid, char grd);
     int get_student_id() const;
     int get_course_id() const;
-    char get_grade() const;
+    //char get_grade() const;
 };

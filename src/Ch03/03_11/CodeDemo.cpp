@@ -13,7 +13,7 @@ int main(){
     std::cout << "Student: " << my_student.get_name() << std::endl;
     std::cout << "Course: " << my_course.get_name() << std::endl;
     std::cout << "Credits: " << my_course.get_credits() << std::endl;
-    std::cout << "Grade: " << my_grade.get_grade() << std::endl;
+    //std::cout << "Grade: " << my_grade.get_grade() << std::endl;
     
     std::cout << std::endl << std::endl;
     return (0);

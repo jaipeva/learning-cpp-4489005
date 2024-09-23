@@ -26,11 +26,13 @@ int main(){
 void initialize(StudentRecords& srec){
     srec.add_student(1, "George P. Burdell");
     srec.add_student(2, "Nancy Rhodes");
+    srec.add_student(3, "Jemery Grant");
 
     srec.add_course(1, "Algebra", 5);
     srec.add_course(2, "Physics", 4);
     srec.add_course(3, "English", 3);
     srec.add_course(4, "Economics", 4);
+    srec.add_course(5, "Geography", 2);
 
     srec.add_grade(1, 1, 'B');
     srec.add_grade(1, 2, 'A');
@@ -38,4 +40,6 @@ void initialize(StudentRecords& srec){
     srec.add_grade(2, 1, 'A'); 
     srec.add_grade(2, 2, 'A');
     srec.add_grade(2, 4, 'B');
+    srec.add_grade(3, 3, 'B');
+    srec.add_grade(3, 1, 'A');
 }

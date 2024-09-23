@@ -24,8 +24,22 @@ int main(){
     std::cout << "Enter a student ID: " << std::flush;
     std::cin >> id;
 
+
     // Calculate the GPA for the selected student.
     // Write your code here
+    int total_points =0;
+    int total_credit =0;
+    for (Grade& grd :grades)
+    {
+        if (grd.get_student_id()== id)
+        {
+            std::cout << "Found details in grades"<< std::endl;
+            total_points += (grd.get_course_id() * courses[grd.get_course_id()].get_credits());
+            std::cout << "Total_Points is = "<< total_points <<std::endl;
+        }
+        std::cout << "Found student details in grades"<< grd.get_course_id()<< std::endl;
+    }
+    
 
     std::string student_str;
     student_str = students[0].get_name(); // Change this to the selected student's name

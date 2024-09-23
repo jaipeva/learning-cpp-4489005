@@ -1,0 +1,7 @@
+student Name= George P. Burdell
+=course= 
+Algebra
+Physics
+=grados= 
+5
+GPA= 3.00641
